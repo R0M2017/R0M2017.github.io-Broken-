@@ -1,12 +1,14 @@
 body {
-  background-color: #111;
+  background-color: #f9f9f9;
 }
 
 .container-body {
-  background-color: white;
+  background-color: #f9f9f9;
 }
 
-
+nav {
+  background-color: #f9f9f9;
+}
 
 
 /*
