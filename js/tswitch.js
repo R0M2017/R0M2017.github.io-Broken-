@@ -1,7 +1,7 @@
 function switchdarkmode() {
     var darkmode = document.getElementById("switchToggle");
     var body = document.getElementById("mainbody");
-    var nav = document.getElementsByTagName("nav");
+    var nav = document.getElementById("mainnav");
     if (darkmode.checked == true) {
         console.log("darkmode");
         body.style.backgroundColor = "#333333";
