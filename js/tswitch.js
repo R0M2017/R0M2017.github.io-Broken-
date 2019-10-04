@@ -1,4 +1,4 @@
-var switchdarkmode = () => {
+function switchdarkmode() {
     var darkmode = document.getElementById("switchToggle");
     var body = document.getElementById("mainbody");
     var nav = document.getElementById("mainnav");
