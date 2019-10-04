@@ -6,5 +6,6 @@ function switchdarkmode() {
         bodycolor.style.backgroundColor = "#333333";
     } else {
         console.log("normal");
+        bodycolor.style.backgroundColor = "#f9f9f9";
     }
 }
