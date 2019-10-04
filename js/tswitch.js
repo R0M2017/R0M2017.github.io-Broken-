@@ -1,11 +1,14 @@
 function switchdarkmode() {
     var darkmode = document.getElementById("switchToggle");
-    var bodycolor = document.getElementById("mainbody");
+    var body = document.getElementById("mainbody");
+    var nav = document.getElementsByTagName("nav");
     if (darkmode.checked == true) {
         console.log("darkmode");
-        bodycolor.style.backgroundColor = "#333333";
+        body.style.backgroundColor = "#333333";
+        nav.style.backgroundColor = "#1a0d00";
     } else {
         console.log("normal");
-        bodycolor.style.backgroundColor = "#f9f9f9";
+        body.style.backgroundColor = "#f9f9f9";
+        nav.style.backgroundColor = "#f9f9f9";
     }
 }
