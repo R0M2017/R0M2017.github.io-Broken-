@@ -1,8 +1,9 @@
-function tswitchFunction() {
-    var darkmode = document.getElementById("switchToggle");
-    
-}
-
 function switchdarkmode() {
-    console.log("The Switch is working!");
+    var darkmode = document.getElementById("switchToggle");
+
+    if (darkmode.checked == true) {
+        console.log("darkmode");
+    } else {
+        console.log("normal");
+    }
 }
