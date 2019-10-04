@@ -3,7 +3,7 @@ function switchdarkmode() {
     var bodycolor = document.getElementById("mainbody");
     if (darkmode.checked == true) {
         console.log("darkmode");
-        bodycolor.style.color = "#333333";
+        bodycolor.style.backgroundColor = "#333333";
     } else {
         console.log("normal");
     }
