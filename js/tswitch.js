@@ -3,10 +3,7 @@
 // var switcher;
 
 window.onload = () => {
-    var modeCookie = getCookie("mode");
-    if (modeCookie != "") {
-        switchdarkmode();
-    }
+    mode(getCookie("mode"));
 }
 
 function switchdarkmode() {
@@ -28,6 +25,19 @@ function switchdarkmode() {
         nav.style.backgroundColor = "#f9f9f9";
         containerbody.style.backgroundColor = "#f9f9f9";
         containerbody.style.color = "#333333"
+    }
+}
+
+function mode(modeCookie) {
+    var m = modeCookie.cname;
+    if (m != "") {
+        if (m == "dark") {
+            console.log("cookie is set to " + m + " mode!");
+        } else if (m == "normal") {
+            console.log("cookie is set to " + m + " mode!");
+        } else {
+            console.log("Incorrect Mode!");
+        }
     }
 }
 
